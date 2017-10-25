@@ -148,7 +148,7 @@ function smb_check_everything {
             && smb_verify_status
             )
     else
-        echo -n "No bolus needed (yet). "
+        echo -n "No bolus needed. "
     fi
 }
 
