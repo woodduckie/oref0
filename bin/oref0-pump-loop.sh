@@ -64,6 +64,7 @@ main() {
             fi
             refresh_profile 15; refresh_pumphistory_24h
             refresh_after_bolus_or_enact
+            oref0-version --check-for-updates
             echo Completed oref0-pump-loop at $(date)
             touch /tmp/pump_loop_completed -r /tmp/pump_loop_enacted
             echo
